@@ -1,0 +1,24 @@
+{
+  "name": "cursor-browser-tools-mcp",
+  "version": "1.0.0",
+  "description": "Browser tools MCP for Cursor IDE",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "puppeteer": "^22.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "keywords": [
+    "cursor",
+    "ide",
+    "mcp",
+    "browser",
+    "tools"
+  ],
+  "author": "",
+  "license": "MIT"
+}
