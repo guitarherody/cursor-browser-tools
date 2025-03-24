@@ -1,0 +1,37 @@
+{
+  "name": "cursor-browser-tools",
+  "version": "1.0.0",
+  "description": "Browser tools extension for Cursor IDE",
+  "main": "dist/extension.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest"
+  },
+  "dependencies": {
+    "puppeteer": "^22.3.0",
+    "puppeteer-core": "^22.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.12"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guitarherody/cursor-browser-tools.git"
+  },
+  "keywords": [
+    "cursor",
+    "ide",
+    "browser",
+    "tools",
+    "extension"
+  ],
+  "author": "",
+  "license": "MIT"
+}
